@@ -1,0 +1,24 @@
+/* Sender bubble (current user) */
+.bubble-sender {
+    background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
+    color: #fff;
+    border-radius: 1.25rem 1.25rem 0.25rem 1.25rem;
+    padding: 0.75rem 1.25rem;
+    margin-left: auto;
+    margin-bottom: 0.5rem;
+    max-width: 80%;
+    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
+    word-break: break-word;
+}
+/* Receiver bubble */
+.bubble-receiver {
+    background: #f3f4f6;
+    color: #111827;
+    border-radius: 1.25rem 1.25rem 1.25rem 0.25rem;
+    padding: 0.75rem 1.25rem;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+    max-width: 80%;
+    box-shadow: 0 2px 8px rgba(31, 41, 55, 0.06);
+    word-break: break-word;
+}
